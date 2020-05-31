@@ -1,4 +1,4 @@
-#Tsunami Android Webviews
+# Tsunami Android Webviews
 
 Problem:
 - Android doesn't support JS natively, and lots of the code we need is in JS. Ex. Tornado Cash proof generation
@@ -13,3 +13,21 @@ First attempt will be with Tornado Cash. They have a simple minimal demo that sh
 https://github.com/tornadocash/tornado-core/blob/a533ad9ffb62163a42d4fa9a09984c5dd4e5c41d/minimal-demo.js
 
 
+## Build
+
+```
+nvm install 11.15
+nvm use 11.15
+npm i
+
+
+
+npm install -g npx
+npm run install
+npm build
+```
+
+## Develop
+```
+
+```
